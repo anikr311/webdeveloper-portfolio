@@ -35,11 +35,13 @@
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    text-align: center;
 }
 .section-description{
     font-size: 18px;
     color: #757575;
     margin: 0 30px 0 30px;
+    text-align: center;
 }
 
 /* header section */
@@ -129,21 +131,18 @@ main section{
     font-size: 20px;
     color: #474747;
 }
-/* What do section */
-.skills{
-    text-align: center;
-    
-}
+/* skills section */
 
-.skill-container{
+.skills-container{
     display: flex;
     gap: 24px;
-}
-.skill, img{
-    size: 44px;
+    /* padding: 30px; */
 }
 .skill{
     padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+.skills .section-description{
+    padding: 0px 30px 30px 30px;
+}   
